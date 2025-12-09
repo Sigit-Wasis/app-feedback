@@ -17,6 +17,11 @@
 <body>
 
     <div class="form-box">
+        <?php if(isset($_GET['status']) && $_GET['status'] == 'success'): ?>
+            <div style="padding:10px; background:#d4edda; color:#155724; margin-bottom:15px;">
+                Feedback berhasil dikirim!
+            </div>
+        <?php endif; ?>
 
         <h1>My Feedback Form</h1>
         <div class="title">Kirimkan feedback mu untuk akuu!!</div>

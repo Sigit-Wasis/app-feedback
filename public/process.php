@@ -40,4 +40,6 @@ foreach ($emotions as $emotion_id) {
     mysqli_query($conn, "INSERT INTO feedback_emotions (feedback_id, emotion_id) VALUES ('$feedback_id', '$emotion_id')");
 }
 
-echo "Feedback berhasil dikirim!";
+// setelah semua berhasil -> redirect
+header("Location: /public?status=success");
+exit;
