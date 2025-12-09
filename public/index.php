@@ -12,9 +12,9 @@
 <div class="container mt-3 text-center">
     <div class="mt-4">
         <h1 class="mb-4">Feedback</h1>
-        <a class="btn btn-primary" href="public/feedback/input.php">Input Feedback</a>
-        <a class="btn btn-secondary" href="public/users/index.php">Data User</a>
-        <a class="btn btn-success" href="public/feedback/index.php">Data Feedback</a>
+        <a class="btn btn-primary" href="feedback/input.php">Input Feedback</a>
+        <a class="btn btn-secondary" href="users/index.php">Data User</a>
+        <a class="btn btn-success" href="feedback/index.php">Data Feedback</a>
     </div>
 </div>
     

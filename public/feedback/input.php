@@ -26,7 +26,7 @@
         <h1>My Feedback Form</h1>
         <div class="title">Kirimkan feedback mu untuk akuu!!</div>
 
-        <form action="public/process.php" method="POST" enctype="multipart/form-data">
+        <form action="process.php" method="POST" enctype="multipart/form-data">
             <ul>
                 <li>Name : <input type="text" name="name"></li>
                 <li>Email : <input type="text" name="email"></li>
